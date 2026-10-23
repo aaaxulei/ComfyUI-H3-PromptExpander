@@ -1,0 +1,10 @@
+[project]
+name = "comfyui-h3-promptexpander"
+description = "Expand short prompts into MiniMax-H3 structured prompts with a local GGUF Qwen VLM and the official h3-prompt-writing rules."
+version = "0.1.0"
+license = { text = "MIT" }
+dependencies = ["llama-cpp-python"]
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "H3 Prompt Expander"
